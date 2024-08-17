@@ -11,7 +11,7 @@ body {
 
 .latest-match-cont {
   background-color: #0f172a;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
 
   display: flex;
   justify-content: space-between;
@@ -62,9 +62,10 @@ body {
 
 .innings-cont {
   text-align: end;
+  font-family: bree serif;
 }
 
-.heading {
+.ininngs-info-heading {
   font-size: 2rem;
   color: white;
   font-weight: bold;
