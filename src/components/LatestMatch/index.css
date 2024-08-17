@@ -1,0 +1,77 @@
+/* Write your CSS here */
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Bree serif;
+  margin: 0;
+}
+
+.latest-match-cont {
+  background-color: #0f172a;
+  padding: 1rem 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.result-cont {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  font-family: Bree Serif;
+}
+
+.competting-team {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.venue {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.result {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.competting-img {
+  height: 30rem;
+
+  flex-basis: 30%;
+  margin-right: 5rem;
+  object-position: center;
+}
+
+.latest-match-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.innings-cont {
+  text-align: end;
+}
+
+.heading {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.data {
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+}

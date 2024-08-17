@@ -1,0 +1,39 @@
+/* Write your CSS here */
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: roboto;
+}
+
+.team-card {
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+  border: 2px solid white;
+
+  display: flex;
+
+  align-items: center;
+}
+
+.team-logo {
+  height: 10rem;
+  width: 10rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.team-name {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+}
+
+.team-link {
+  text-decoration: none;
+}
